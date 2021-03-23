@@ -1,8 +1,13 @@
 body {
-  background: linear-gradient(205deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 15%, rgba(0,212,255,1) 100%);
+  background: #000000;
+  background-size: cover;
   background-repeat: no-repeat;
-  background-size:cover;
+  background-image: url('./Penguin.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center; 
 }
+
 .centered {
   display: flex;
   justify-content: center;
@@ -12,11 +17,39 @@ body {
 .child {
   justify-content: center;
   align-items: center;
-  height: 5rem;
-  width: 35rem;
+  height: 7rem;
+  width: 23rem;
   background: #fff;
   padding: 10px;
   border-radius: 10px;
   position: relative;
   text-align: center;
+}
+.title {
+  font-weight: bold;
+}
+
+.submitBtn {
+  background: #eca31b;
+  padding: 0.3rem;
+  margin: 3px;
+  border-radius: 3px;
+  display: inline-block;
+  color: #fff;
+  font-weight: 600;
+}
+
+.submitBtn:hover {
+  background: #eca31bce;
+  cursor: pointer;
+}
+
+.btnContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.error {
+  color: red;
+  font-size: 12px;
 }

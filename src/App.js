@@ -1,5 +1,5 @@
 import './App.css';
-import Penguin from './penguin/penguin';
+import Penguin from './components/penguin';
 
 function App() {
   return (
